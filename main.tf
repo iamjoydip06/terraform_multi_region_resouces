@@ -29,7 +29,7 @@ resource "aws_instance" "multi_region_1" {
     provider = aws.east_region
     tags = {
         Name = "east_ec2"
-        Env = "dev"
+        Env = "prod"
     }
 }
 
